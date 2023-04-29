@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "abstract-feature-flag"
+version = "0.1.0"
+description = ""
+authors = ["chaconfrank <fchacon@webs314.com>"]
+readme = "README.md"
+packages = [{include = "abstract_feature_flag"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
