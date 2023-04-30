@@ -3,7 +3,7 @@ from feature_factory import FeatureFactoryCalculateMinimumPreparationTime
 
 def main():
     result = FeatureFactoryCalculateMinimumPreparationTime()\
-        .get_factory(feature_flag='calculate-old')\
+        .get_factory(feature_flag='calculate')\
         .execute(batch={'code': '0001'})
     print(result)
 
